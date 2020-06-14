@@ -1,0 +1,43 @@
+html {
+	height: 100%;
+}
+
+body {
+	background: url(assets/background.png) no-repeat;
+	background-size: cover;
+	background-color: #2a4c53;
+}
+
+main {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	height: 100%;
+	color: #fff;
+}
+
+main > * {
+	margin: 2rem;
+}
+
+#board,
+#ide {
+	border-radius: 5px;
+}
+
+#board {
+	border: 4px solid #2854c2;
+    background: #0009;
+	box-shadow: 0 0 0 6px #0009;
+	height: 500px;
+	width: 500px;
+}
+
+#ide {
+    box-shadow: 0 0 15px #0006;
+    width: 40%;
+    height: 80%;
+    background: #0006;
+    box-sizing: border-box;
+}
