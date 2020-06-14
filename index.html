@@ -8,11 +8,19 @@
 <body>
 	<main>
 		<div id="board">
-			<h1>Hello wrld!</h1>
+			<!-- <canvas width="500" height="500"></canvas> -->
+			<div id="pac-fish" class="game-object">
+				<img src="./assets/pac-fish.png">
+			</div>
+
+			<div id="predator" class="game-object">
+				<img src="./assets/predator.png">
+			</div>
 		</div>
 	
 		<div id="ide">
-			<div id="editor"></div>
+			<pre><code id="editor" class="language-js"></code></pre>
+			<button id="run-code-button">OTA update</button>
 		</div>
 	</main>
 </body>
